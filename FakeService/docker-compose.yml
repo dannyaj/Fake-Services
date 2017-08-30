@@ -1,0 +1,8 @@
+auth-server:
+  build: AuthServer
+  ports:
+    - 5000:5000
+iot-device:
+  build: IoTDevice
+  ports:
+    - 3000:3000
